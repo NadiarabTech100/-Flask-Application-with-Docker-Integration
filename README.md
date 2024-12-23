@@ -1,7 +1,9 @@
 **Overview**
+
 This Flask application is a simple yet effective demonstration of using Docker to ensure consistent deployment. The project includes steps for setting up the environment locally or via Docker, making it reproducible and easy to share.
 
 **Features**
+
 Flask Web Application: A lightweight and functional Python web app.
 Dockerized Environment: Ensures consistent deployment across various systems.
 Scalable and Portable: Easily deployable on local or cloud platforms.
@@ -51,6 +53,7 @@ Copy code
 http://127.0.0.1:5000
 
 **Future Enhancements**
+
 Add a CI/CD Pipeline: Implement a CI/CD pipeline using GitHub Actions to automate testing and deployment.
 Integrate a Feedback Form: Add a dynamic feedback form to collect user data and store it in a database.
 Deploy the App to a Cloud Platform: Host the application on a cloud service like Heroku or AWS for live access and scalability.
