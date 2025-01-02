@@ -11,45 +11,40 @@ Technologies Used
 Flask: A Python web framework for building web applications.
 Docker: For containerization and consistent deployment.
 Python 3.9: Programming language.
+
 Setup Instructions
 Clone the Repository
 Clone the repository from GitHub:
-bash
-Copy code
+bash:
 git clone https://github.com/<your-username>/flask-cicd.git
 cd flask-cicd
 Run the Application
 Using Docker
 Build the Docker Image:
 
-bash
-Copy code
+bash:
 docker build -t flask-app .
 Run the Docker Container:
 
-bash
-Copy code
+bash:
 docker run -p 5000:5000 flask-app
 Access the Application: Open your browser and navigate to:
 
 arduino
-Copy code
 http://127.0.0.1:5000
 Without Docker
 Install Dependencies: Make sure you have Python 3.9 installed, then run:
 
 bash
-Copy code
 pip install flask
 Run the Application:
 
 bash
-Copy code
+
 python app.py
 Access the Application: Open your browser and navigate to:
 
-arduino
-Copy code
+arduino:
 http://127.0.0.1:5000
 
 **Future Enhancements**
